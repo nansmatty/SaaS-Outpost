@@ -14,7 +14,7 @@ const AppShell = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<>
 			<SiteHeader />
-			{children}
+			<div className='flex flex-1 flex-col pt-18'>{children}</div>
 		</>
 	);
 };
